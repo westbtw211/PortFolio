@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>westbtw | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Podpięcie ikon (opcjonalne, ale przydatne) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Nawigacja -->
+    <nav class="navbar">
+        <div class="logo">west<span>btw</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Start</a></li>
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Sekcja Główna (Hero) -->
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Cześć, jestem <span class="highlight">westbtw</span></h1>
+            <p>Developer / Twórca / Pasjonat</p>
+            <a href="#projects" class="btn">Zobacz moje prace</a>
+        </div>
+    </header>
+
+    <!-- O mnie -->
+    <section id="about" class="about-section">
+        <h2>O mnie</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Siemanko! Tworzę unikalne projekty w sieci i nie tylko. Moja pasja to przekuwanie pomysłów w rzeczywistość za pomocą kodu i dobrego designu.</p>
+                <p>Zawsze stawiam na czysty kod, płynne animacje i świetne doświadczenie użytkownika (UX).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projekty -->
+    <section id="projects" class="projects-section">
+        <h2>Moje Projekty</h2>
+        <div class="projects-grid">
+            <!-- Projekt 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <!-- Tutaj możesz wrzucić fotkę z folderu assets/images/ -->
+                    <img src="assets/images/project1.jpg" alt="Projekt 1" onerror="this.src='https://via.placeholder.com/400x250/1a1a1a/ffffff?text=Projekt+1'">
+                </div>
+                <div class="project-info">
+                    <h3>Nazwa Projektu 1</h3>
+                    <p>Krótki opis tego, co zostało zrobione w tym projekcie i jakich technologii użyłeś.</p>
+                    <a href="#" class="project-link">Zobacz więcej <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Projekt 2 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/images/project2.jpg" alt="Projekt 2" onerror="this.src='https://via.placeholder.com/400x250/1a1a1a/ffffff?text=Projekt+2'">
+                </div>
+                <div class="project-info">
+                    <h3>Nazwa Projektu 2</h3>
+                    <p>Krótki opis tego, co zostało zrobione w tym projekcie i jakich technologii użyłeś.</p>
+                    <a href="#" class="project-link">Zobacz więcej <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact" class="contact-section">
+        <h2>Skontaktuj się</h2>
+        <p>Masz pytania? Chcesz podjąć współpracę? Napisz do mnie!</p>
+        <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+            <a href="mailto:kontakt@westbtw.pl"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer>
+        <p>&copy; 2026 westbtw. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
